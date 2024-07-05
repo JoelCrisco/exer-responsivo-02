@@ -1,0 +1,49 @@
+/* Configurações da tela Desktop(1280x832) */
+@media (min-width: 1280px) {
+    /* CSS */
+    body {
+      width: 1280px;
+      height: 832px;
+      justify-content: center;
+      margin: 80px auto;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 1120px;
+      height: 672px;  
+    }
+
+    div {
+      margin-left: 100px;
+    }
+   
+    #img {
+      margin: 0;
+      height: 300px;
+      width: 300px; 
+    }
+
+    h1::before {
+      content: "Uhu! ";
+      font-size: 48px;
+  }
+    h1 {
+      font-family: "Baloo 2", sans-serif;
+      font-size: 48px;
+      color: #2C3E50;
+    }
+  
+    p {
+      font-size: 32px;
+    }
+  }
+
+  button {  
+    background-color: #F0908B;
+    font-size: 24px;
+    width: 500px;
+    height: 70px;
+    font-weight: 700px;
+  }
